@@ -39,3 +39,10 @@ car1.make = "Tata"
 print(car1.make)
 
 
+# What is self?
+
+car1.start()
+
+# Implicit and explicit object
+
+Car.start(car1)
