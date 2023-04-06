@@ -21,4 +21,6 @@ file.write("A new file is created an new data is entered")
 
 # File seek
 
-
+f = open("data/books.csv, "r")
+print (f.read())
+print (f.read()) # what's happening here

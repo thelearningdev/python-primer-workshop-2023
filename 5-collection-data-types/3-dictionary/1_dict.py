@@ -21,6 +21,11 @@ print(my_dict["kiwi"])
 
 print(my_dict["tomato"])
 
+## Find if key is in 
+
+"tomato" in my_dict
+"apple" in my_dict
+
 ## Default Value
 
 print(my_dict.get("pear"))

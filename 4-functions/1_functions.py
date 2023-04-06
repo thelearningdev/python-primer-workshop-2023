@@ -66,5 +66,3 @@ double = lambda x: x * 2
 print(double(5))
 
 # Function can call other functions
-
-def add()
