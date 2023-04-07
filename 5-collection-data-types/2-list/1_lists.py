@@ -4,6 +4,10 @@
 # x.function()
 # When trying each function also think of a usecase to apply it and write them down
 
+# Empty list
+x = []
+
+# list with values
 x = [1, 2, 3, 4, 5]
 
 ## Accessing list

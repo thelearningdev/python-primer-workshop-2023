@@ -2,6 +2,8 @@
 
 ## Data Types
 
+> Try the following in Python shell
+
 Integer: An integer is a whole number without a fractional component. For example:
 
 ```
@@ -36,6 +38,7 @@ y = False
 List: A list is a collection of values, separated by commas and enclosed in square brackets. For example:
 
 ```
+a = []
 x = [1, 2, 3, 4, 5]
 y = ['apple', 'banana', 'cherry']
 z = [True, 2, 'three']
@@ -119,6 +122,7 @@ not in (returns True if the value is not present in the sequence)
 
 ## Input/Output
 
+```
 x = input()
-
 print (x)
+```

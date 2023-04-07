@@ -1,3 +1,5 @@
+# Try the following in Python shell
+
 a = input()
 # Enter 100
 
@@ -12,7 +14,7 @@ b = input()
 
 
 # How can we fix this?
-# Hint :: Remember int(1) will create an integer
+# Hint :: Types
 
 
 # Can we do the same for lists?

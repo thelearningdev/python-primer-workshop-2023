@@ -1,8 +1,32 @@
 # Introduction to Python
 
-There are two ways to learn Python
+There are three ways to learn Python
 
-- Learning Programming with Python
-- Learning the Python Programming language
+- Learning Programming with Python (Logic)
+- Learning to use Python (Syntax)
+- Learning Python (Language)
 
-The goal of this training is to get really good at the 1st one while spiking curioisty to the 2nd one.
+## Where is Python Used?
+
+- Backend
+- Data engineering
+- Data science
+- Robotics
+- Research
+- Academy
+
+## Why Python?
+
+- Easy to learn
+- Community
+- Solid and stable
+
+## Learning Principles
+
+### Forgetting Curve
+
+![](https://www.learnupon.com/wp-content/uploads/Blog-Forgetting-Curve-Graphic.png)
+
+### Learning In Iteration
+
+![](https://pbs.twimg.com/media/E7tdScuVcAApEME?format=jpg)

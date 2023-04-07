@@ -1,3 +1,7 @@
+# Python Inbuilt methods
+
+## Try the following in Python shell
+
 print("hello world")
 
 len("hello")
@@ -6,16 +10,28 @@ input("input a number")
 
 range(1, 10, 2)
 
-max([5, 10, 30])
+x = [5, 10, 30]
+max(x)
+min(x)
+len(x)
+sum(x)
+len(x)
 
-min([5, 10, 30])
+enumerate(x)
+sorted(x)
 
-sorted([3, 1, 4, 1, 5, 9, 2, 6, 5])
+# Type conversion
 
-x = "10"
+x = 10
 type(x)
 
-x = "c"
+x = str(x)
 type(x)
+
+x = int(x)
+
+isinstance(x, str)
+isinstance(x, int)
+
 
 filter(lambda x: x % 2 == 0, [1, 2, 3, 4, 5])

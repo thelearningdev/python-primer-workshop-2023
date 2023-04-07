@@ -1,10 +1,17 @@
-x = input()
-x = int(x)
-
 # Recap Conditional Expressions
 
+True
+False
+1 == 1
+2 <= 5
+2 == 5
+2 < 5 and 3 < 5
+2 < 5 or 7 < 5
 
+# Let's start
 
+x = input()
+x = int(x)
 
 # Construct 0 : if then
 
