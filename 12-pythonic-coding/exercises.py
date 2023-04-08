@@ -1,10 +1,12 @@
+# No of exercises = 6
+
 # Hint :: for loops
 
-cities = ['Nairobi', 'Kampala', 'Lagos']
+cities = ["Nairobi", "Kampala", "Lagos"]
 index = 0
 while index < len(cities):
-  print(cities[index])
-  index += 1
+    print(cities[index])
+    index += 1
 
 
 # Hint: Use list comprehension
@@ -16,7 +18,7 @@ for num in numbers:
 
 
 # Hint: Use `enumerate`
-fruits = ['apple', 'banana', 'orange']
+fruits = ["apple", "banana", "orange"]
 index = 0
 for fruit in fruits:
     print(index, fruit)
@@ -24,17 +26,19 @@ for fruit in fruits:
 
 
 # Hint: Use the right data type
-names = ['Alice', 'Bob', 'Charlie']
+
+names = ["Alice", "Bob", "Charlie"]
 ages = [25, 30, 35]
 for i in range(len(names)):
     print(names[i], ages[i])
 
 
 # Hint: use one of the string methods
-words = ['hello', 'world', 'python']
-result = ''
+
+words = ["hello", "world", "python"]
+result = ""
 for word in words:
-    result += word + ' '
+    result += word + " "
 print(result)
 
 
@@ -51,8 +55,10 @@ def check_equal(x, y):
 
 #  Hint :: Use one of the dict methods
 
-auth = None
-if 'auth_token' in payload:
-  auth = payload['auth_token']
-else:
-  auth = 'Unauthorized'
+
+def get_token(payload):
+    auth = None
+    if "auth_token" in payload:
+        auth = payload["auth_token"]
+    else:
+        auth = "Unauthorized"
