@@ -1,0 +1,29 @@
+Exercise 1:
+Given a list of integers, write a program to find the minimum and maximum numbers in the list.
+
+Exercise 2:
+Given a list of strings, write a program to count the frequency of each string in the list and store the counts in a dictionary.
+
+Exercise 3:
+Given a list of numbers, write a program to compute the product of all the numbers in the list.
+
+Exercise 4:
+Given a dictionary of string keys and integer values, write a program to find the key with the maximum value.
+
+Exercise 5:
+Given a list of strings, write a program to remove all duplicates from the list while preserving the order of the elements.
+
+Exercise 6:
+Write a Python program that takes two lists of integers and returns a dictionary containing the difference between each element in the two lists. For example, given the lists [1, 2, 3] and [2, 4, 6], the program should return {1: -1, 2: -2, 3: -3}.
+
+Exercise 7:
+Write a Python program that takes a list of strings and returns a dictionary containing the frequency of each string in the list. For example, given the list ["apple", "banana", "apple", "orange", "banana", "banana"], the program should return {"apple": 2, "banana": 3, "orange": 1}.
+
+Exercise 8:
+Write a Python program that takes a list of integers and returns a list of tuples containing each integer and its square. For example, given the list [1, 2, 3], the program should return [(1, 1), (2, 4), (3, 9)].
+
+Exercise 9:
+Write a Python program that takes a list of dictionaries and returns a dictionary containing the sum of values for each key in the dictionaries. For example, given the list [{a: 1, b: 2}, {a: 3, b: 4}], the program should return {a: 4, b: 6}.
+
+Exercise 10:
+Write a Python program that takes a list of strings and returns a list of tuples containing the string and its length. For example, given the list ["apple", "banana", "orange"], the program should return [("apple", 5), ("banana", 6), ("orange", 6)].
