@@ -1,3 +1,12 @@
+# Polymorphism in data structures
+
+
+
+
+
+
+# Custom polymorphism
+
 class Animal:
     def __init__(self, name):
         self.name = name

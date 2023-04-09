@@ -1,5 +1,5 @@
-# Try the following in Python Shell
-
+# Copy paste each of the following lines into Python shell
+# For each line understand the behavior
 
 100 + 200 
 
@@ -22,22 +22,23 @@ type(c)
 
 # --------------------- Getting Help --------------------------=
 
-help(abs)
+# press q to exit the help mode
 
-
-help(int)
-
-
-help("for") # why is this enclosed in quotes
-
-
+help("abs")
+help("int")
+help("for")
 help("+")
 
 
+help(for) # will give an error
+help(abs) # will not give an error why?
+ 
 # --------------------- Comments --------------------------
 
 """
-Multi-line comment, also works as a string, also used as a doc string
+Triple quotes Multi-line comment, 
+also works as a string, 
+also used as a doc string
 """
 
 a1 = """a
@@ -50,6 +51,7 @@ b
 c"
 
 # What's the difference between a1 and a2? Why don't we print and see?
+
 
 # --------------------- Boolean --------------------------
 
@@ -69,8 +71,11 @@ True == 1
 
 # --------------------- Conditional statements ------------
 
+# everytime you see an indented code it's a block
+# When copy pasting copy the whole block
 
 if x:
+    print ("x=",x)
     print ("X is true")
 
 # Will this condition pass
@@ -86,6 +91,7 @@ for i in range(5):
     
 
 # Find what range does? Rember `help`
+# Write down what you understand
 
 
 
@@ -112,14 +118,15 @@ l[1]
 
 # Find the type of `l` variable
 
-# is the following a valid python element
+
+# --------------------- ??? --------------------------
+
+# is the following a valid python statement
 t = 1, 2, 3, 4, 5
 
-# what is the type of t?
 
+# what is the type of t? Remember `type`?
 
-# Define a list [50, 80, 100, 20, 30, 29
-# find the number of elements with value > 70
 
 
 # --------------------- Tuples --------------------------
@@ -135,6 +142,7 @@ t = (1, 2, 3, 4)
 
 # So what is the difference between list and a tuple?
 
+
 # --------------------- String --------------------------
 
 s = 'hello'
@@ -142,31 +150,21 @@ s = 'hello'
 # What's the output of this?
 s[0] 
 
+
 # What's the output of this? Does it work? Why not?
 s[0] = 'B' 
 
 
 # Can you do the same for list `l` we defined before?
-
+l[0] = 20
 
 # Can you do the same for list `t` we defined before?
-
+t[0] = 40
 
 # What is the output of the following?
 # What does this says about the str object?
 for i in s:
     print (i)
-
-# --------------------- Find functions of an object --------------------------
-
-# what does this statement do?
-dir(s)
-
-# Try these string functions
-# 'isdigit', 'islower', 'istitle', 'isupper', 'join', 'replace', 'split', 'startswith', 'strip', 'swapcase', 'title'
-
-
-# Try the same for `l` what functions do you find?
 
 # --------------------- Recap --------------------------
 
