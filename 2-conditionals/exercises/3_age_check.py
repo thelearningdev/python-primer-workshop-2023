@@ -5,3 +5,11 @@ print "You can drive!"
 Otherwise, 
 print "Sorry, you are not eligible to drive."
 """
+
+age = input()
+age = int(age)
+
+if age < 16:
+    print ("Sorry, you are not eligible to drive.")
+else:
+    print ("You can drive!")

@@ -15,7 +15,6 @@ max(x)
 min(x)
 len(x)
 sum(x)
-len(x)
 
 enumerate(x)
 sorted(x)

@@ -1,0 +1,4 @@
+Multiple For loops
+
+1. Write a Python program that prints the multiplication table of a given integer n up to a certain limit k. 
+2. Countdown timer

@@ -6,3 +6,15 @@ password = "ab$12"
 # If it does print sucess
 # if not print "password wrong"
 # Each user gets 3 attemps before program exits
+
+input_username = input()
+input_password = input()
+
+# 3 attemps
+
+# check if the input_username & username is same
+# check if password and input_password same
+
+# if correct end the loop by using `break`
+
+# if not try all 3 attempts

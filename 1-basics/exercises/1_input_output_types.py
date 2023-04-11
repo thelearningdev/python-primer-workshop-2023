@@ -10,14 +10,22 @@ b = input()
 
 # add a and b
 
+z = a + b
+
 # print the output
 
+print (z)
+
 # What are you getting? Why?
+
+
 
 
 # How can we fix this?
 # Hint :: Types
 
+z = int(a) + int(b)
+print (z)
 
 
 # Ex:: 2
@@ -30,8 +38,23 @@ z = input()
 # What happens if we do list(z) 
 # store list(z) in b
 
+b = list(z)
 
 # Convert z to `int`
 
+b = int(z)
 
-# Solve problems in exercises.md
+
+
+
+
+
+
+
+
+
+
+
+
+# Solve problems in exercises.md, 
+# if you are done with the above

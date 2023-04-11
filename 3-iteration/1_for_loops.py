@@ -23,7 +23,7 @@ numbers = [1, 2, 3, 4, 5]
 l = len(numbers)
 
 for i in range(0, l):
-    print(num[i])
+    print(numbers[i])
 
 # Zipping two lists
 
@@ -38,3 +38,6 @@ for name, age in zip(names, ages):
 ages = {"Alice": 25, "Bob": 30, "Charlie": 35}
 for name in ages:
     print(name, ages[name])
+
+# Alice, bob, charlie
+# Alice,25 ... bob, 30,...
