@@ -1,5 +1,9 @@
 # Inbuilt modules
 
+# split
+# strip
+# len
+# count
 
 import math
 
@@ -34,3 +38,19 @@ x = random_integer(1, 10)
 print(x)
 
 
+# library(folder)
+    # books
+        # books.py
+    # bookshelf
+        # shelf.py
+
+    # library.py
+
+
+from books.books import get_function
+get_function
+
+from books import books
+book.get_function
+
+from book_shelf import shelf
