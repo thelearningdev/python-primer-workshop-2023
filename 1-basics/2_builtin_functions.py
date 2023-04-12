@@ -2,7 +2,7 @@
 
 ## Try the following in Python shell
 
-print("hello world")
+(print"hello world")
 
 len("hello")
 

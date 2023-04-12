@@ -43,5 +43,8 @@ x = [{"name": "Sam", "age": 10}, {"name": "Ram", "age": 20}, {"name": "Tam", "ag
 
 # looping list of dict
 
+for data in x:
+    print (data['name'], data['age'])
+
 
 # list comprehension

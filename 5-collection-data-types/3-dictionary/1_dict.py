@@ -24,7 +24,7 @@ print(my_dict["tomato"])
 ## Find if key is in 
 
 "tomato" in my_dict
-"apple" in my_dict
+"apple" not in my_dict
 
 ## Default Value
 

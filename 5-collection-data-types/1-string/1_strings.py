@@ -4,7 +4,7 @@
 
 
 def greet(msg):
-    return hello + " " + msg
+    return "hello" + " " + msg
 
 
 print(greet("Sam"))
@@ -25,8 +25,10 @@ data = [
     {"name": "Sam", "age": 12},
     {"name": "Tam", "age": 14},
 ]
-template = "we all know {name} whose age is {age}"
+template = "we all know {name} whose age is"
 
+for x in data:
+    print (template.format(name=x['name'], age=x['age']))
 
 # ----------------------------------------------------------------------------
 

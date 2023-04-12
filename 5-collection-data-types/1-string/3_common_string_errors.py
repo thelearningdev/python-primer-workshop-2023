@@ -17,15 +17,17 @@ s[1] = z
 # The following is an anti-pattern not an error
 # 1. Understand what the code does
 
-x = ""
+# x = ""
 
-for item in ["apples", "oranges", "mango"]:
-    x += item + ","
+# for item in ["apples", "oranges", "mango"]:
+#     x += item + ","
 
-x = x.strip(",")
-print(x)
+# x = x.strip(",")
+# print(x)
 
 # 2. What do you think is the problem with other code
 
 
 # 3. What string method can we use to make this better?
+
+x = ",".join(["apples", "oranges", "mango"])

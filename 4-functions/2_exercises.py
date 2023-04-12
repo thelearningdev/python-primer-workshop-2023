@@ -5,41 +5,59 @@
 INVALID_INPUT = "Invalid Input"
 
 
-def area_of_square():
+def area_of_square(length):
     # takes `length` as input
     # returns area of square
     # return INVALID_INPUT :: for improper input
 
-    # pass is used when you want to leave a block as empty and fill in later
-    # using pass will not raise an error
-    pass
+    if not isinstance(length, int):
+        return INVALID_INPUT
+    return length ** 2 # ** means square
 
 
-def area_of_circle():
-    pass
+def area_of_circle(radius):
+    if not isinstance(radius, int):
+        return INVALID_INPUT
+    return int(3.14 * ( radius ** 2 )) # pi r squared
 
 
-def calculate_area_of_square_with_list():
+def calculate_area_of_square_with_list(lengths):
     # add func param `lengths`
     # Loop through `lenghts`, find area and return a list
     # Modify the code to get `lengths` as a param
-    pass
+
+    areas = []
+    for l in lengths:
+        area = area_of_square(l)
+        areas.append(area)
+    return areas
 
 
-def area():
+def area(shape, length):
     # modify this function which takes two params `(shape, length)` and returns area of the shape.
     # possible values for shape is square & circle alone
     # return INVALID_INPUT :: for improper input
     # think if you can re-use a function from before
-    pass
+    if shape == "square":
+        return area_of_square(length)
+    elif shape == "circle":
+        return area_of_circle(length)
+    else:
+        return INVALID_INPUT
 
 
-def calculate_area_with_list():
+
+def calculate_area_with_list(shapes):
     # get an input param `shapes` with list of [(`shape_type, length`)]
     # Loop through find area and return a list
     # Modify the code to get `shapes` as a param
     # return INVALID_INPUT :: for improper input
-    pass
+    areas = []
+    for shape, length in shapes:
+        a = area(shape, length)
+        areas.append(a)
+
+    return areas
 
 
 assert area_of_square(4) == 16
