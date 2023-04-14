@@ -7,6 +7,11 @@ URL = "https://raw.githubusercontent.com/HariVM/Analytics/master/1000%20Sales%20
 # Use request library to get data from this URL
 # Write it to a sales.csv file
 
+response = requests.get(URL)
+response.text
+# store it in a file `sales.csv`
+# Refer 6-file_handling/1_file_handling.py
+
 
 URL = "https://python-primer.free.beeceptor.com/book"
 
@@ -24,4 +29,10 @@ data = {
 }
 
 
+response = requests.post(URL, data)
+print (response.json())
+
 # Create GET request to the above API with following data
+
+response = request.get(URL, data)
+response.json()
