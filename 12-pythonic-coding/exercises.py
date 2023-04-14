@@ -11,10 +11,13 @@ while index < len(cities):
 
 # Hint: Use list comprehension
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-result = []
-for num in numbers:
-    if num % 2 == 0:
-        result.append(num)
+
+def get_even(numbers):
+    result = []
+    for num in numbers:
+        if num % 2 == 0:
+            result.append(num)
+    return result
 
 
 # Hint: Use `enumerate`
@@ -46,19 +49,23 @@ print(result)
 
 
 def check_equal(x, y):
-    result = False
-
-    if x == y:
-        result = True
-    return result
+    return x == y
+    # result = False
+    # if x == y:
+    #     result = True
+    # return result
 
 
 #  Hint :: Use one of the dict methods
 
 
 def get_token(payload):
-    auth = None
-    if "auth_token" in payload:
-        auth = payload["auth_token"]
-    else:
-        auth = "Unauthorized"
+    # auth = None
+    # if "auth_token" in payload:
+    #     auth = payload["auth_token"]
+    # else:
+    #     auth = "Unauthorized"
+    # return auth
+
+    return payload.get('auth_token', 'Unauthorized')
+    #

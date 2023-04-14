@@ -5,6 +5,7 @@ class CustomException(Exception):
 try:
     # Some code that may raise the CustomException
     raise CustomException("This is a custom exception")
+    # 1 / 0
 except CustomException as e:
     # Handle the exception here
     print("Caught CustomException:", e)

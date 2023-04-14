@@ -12,5 +12,6 @@ except ZeroDivisionError:
     
 except NameError:
     print("Name erorr occured")
+    
 finally:
     print("This code will always be executed.")

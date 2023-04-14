@@ -2,3 +2,25 @@ Multiple For loops
 
 1. Write a Python program that prints the multiplication table of a given integer n up to a certain limit k. 
 2. Countdown timer
+3. Create a program that generates a random number between 1 and 100, and then asks the user to guess the number. If the user's guess is too high or too low, give them a hint and ask them to guess again. Keep repeating this until the user guesses the correct number.
+4. Create a program that prompts the user to enter a list of names, separated by commas. Convert the input string into a list of strings, and then print the names in alphabetical order.
+5. Remove duplicates from list
+
+6. Create an empty dict 
+7. add the key 'book' with value 'read'
+8. create a variable `temp` with value `car`
+9. add the temp as key to above dict with value `drive`
+10. create a new dict with keys and value `google=search,youtube=watch,blogs=read`
+11. update the dict created before with the new dict
+12. Remove the key `book` while removing get it's value
+13. With a given integral number n, write a program to generate a dictionary that contains (i, i*i) such that is an integral number between 1 and n (both included). and then the program should print the dictionary.
+Suppose the following input is supplied to the program:
+Then, the output should be:
+{1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}
+
+13. Create a program that prompts the user to enter a list of numbers, separated by commas. Convert the input string into a list of integers, and then print only the numbers that are greater than 10.
+
+
+# 1. Pulling data from Microsoft MSSQL
+# 2. Doing some validation/analysis on the data
+# 3. Given some data, draw a given chart 

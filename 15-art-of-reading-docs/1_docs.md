@@ -10,6 +10,9 @@
 
 Go through the following libraries and record what you find
 
-1. Beautifulsoup 
-2. Flask
-3. Airflow
+1. requests
+2. pandas
+
+3. Beautifulsoup
+4. Flask
+5. Airflow
