@@ -7,3 +7,6 @@ Python is an heavily adopted programming language used in Backend, Data, Devops 
 `Build2Learn (Learn By Doing)`
 Conventional learning is boring.
 So Each chapter consists of exercises where you can relate the usage of concept to real time usecases
+# Resources 
+
+https://www.fullstackpython.com/
